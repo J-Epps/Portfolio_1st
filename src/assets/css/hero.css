@@ -1,0 +1,65 @@
+/* Profile */
+.profile-picture {
+  display: inline-block;
+  width: 256px;
+  height: 256px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 25px;
+}
+
+.profile-header {
+  margin-bottom: 70px;
+  color: var(--header-text);
+}
+
+.profile-header {
+  margin-bottom: 70px;
+  color: var(--header-text);
+}
+
+.profile-name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  letter-spacing: 0.2em;
+  margin-bottom: 16px;
+}
+
+.profile-tagline {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  letter-spacing: 3px;
+  margin-bottom: 24px;
+}
+
+.profile-links {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+/* Hero */
+
+.hero-container {
+  background-image: var(--outer-bg-image);
+  min-height: calc(100vh - 180px);
+  width: 100vw;
+  display: block;
+  padding: 32px 0;
+}
+
+.hero {
+  text-align: center;
+  width: 1440px;
+  margin: 0 auto;
+  font-size: 12px;
+  background-color: var(--inner-bg-colour);
+  padding: 60px 72px;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+@media (max-width: 1440px) {
+  .hero {
+    width: calc(90% - 144px);
+  }
+}
